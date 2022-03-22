@@ -1,0 +1,23 @@
+https://demo.guru99.com/test/delete_customer.php
+https://www.mercurytravels.co.in/flights
+https://selenium.obsqurazone.com/radio-button-demo.php
+Elsa7:44 AM
+https://www.techbeamers.com/use-locators-selenium/#partial-link-text-to-select-link-element
+https://selenium.obsqurazone.com/select-input.php
+Elsa8:49 AM
+https://demo.guru99.com/test/newtours/register.php
+
+https://www.softwaretestingmaterial.com/sample-webpage-to-automate/
+https://selenium.obsqurazone.com/select-input.php
+
+
+ Elsa7:43 AM
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+Elsa7:47 AM
+ WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(10));
+		  w.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(driver.findElement(By.className("demo-frame"))));
+Elsa7:48 AM
+Wait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
+        .withTimeout(Duration.ofSeconds(30))
+        .pollingEvery(Duration.ofSeconds(5))
+        .ignoring(NoSuchElementException.class);
